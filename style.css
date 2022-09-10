@@ -1,0 +1,102 @@
+/* 
+.navbar{
+    background-color: rgba(100, 100, 209, 0.582);
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 15px 25px;
+}
+.navbar li a{
+    padding: 8px 8px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar button{
+    color:white;
+    width: 100px;
+    height: 40px;
+margin-left: 50px;
+display:inline-block;
+padding-bottom: 15px 32px;
+    background-color: blue;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    cursor: pointer;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+}  */
+*{
+margin: 0;
+padding: 0;
+}
+.firstdiv{
+    display: flex;
+    /* background-color: blue; */
+    color: white;
+align-items: center;
+
+
+    
+    }
+    ul li{
+        text-decoration: none;
+        display: flex;
+        padding-left: 35px;
+        
+    }
+/* .photo{
+    height: 50px;
+    width: 50px;
+} */
+.secoenddiv{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+    
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    padding-right: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: blue;
+    height: 60px;
+}
+ul{
+    display: flex;
+}
+button{
+    padding: 12px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    
+}
+.secoenddiv button:hover{
+    background-color: white;
+    color: blue;
+}
+a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+
+}
